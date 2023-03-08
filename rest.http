@@ -1,0 +1,12 @@
+###
+GET http://localhost:3000/ HTTP/1.1
+
+###
+GET http://localhost:3000/photos HTTP/1.1
+
+###
+GET http://localhost:3000/photos?albumId=1 HTTP/1.1
+
+
+###
+GET http://localhost:3000/photos/1 HTTP/1.1
